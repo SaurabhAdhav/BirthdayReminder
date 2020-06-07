@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/banner_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".SendMessage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@drawable/gradient"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <include
+            android:id="@+id/title_header"
+            layout="@layout/actionbar_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa"
+
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/txt_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:layout_marginTop="@dimen/text_size_25sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/tap_here_to_pick_contact"
+        android:textColor="@color/material_icon"
+        android:textColorHint="@color/material_icon"
+        android:fontFamily="@font/comfortaa"
+        android:textAllCaps="false"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/edt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_message"
+        android:textColor="@color/material_icon"
+        android:textColorHint="@color/material_icon"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/comfortaa"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_send_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sms"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@drawable/gradient"
+        android:textColor="@color/white"
+        android:fontFamily="@font/comfortaa"
+        android:textAllCaps="false"/>
+</LinearLayout>

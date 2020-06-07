@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.application.StartupActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_option"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/banner_background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="RtlSymmetry">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:background="@drawable/gradient"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                style="@style/TextView.title.orange.18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/margin_8dp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:fontFamily="@font/comfortaa"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <Button
+            android:id="@+id/txt_add_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:background="@drawable/roundedbutton"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/dimen_40dp"
+            android:shadowColor="@color/black"
+            android:text="@string/add_reminder"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:translationX="90dp"
+            android:translationY="50dp"
+            android:fontFamily="@font/comfortaa"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/txt_view_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:background="@drawable/roundedbutton"
+            android:gravity="left|center_vertical"
+
+            android:paddingLeft="@dimen/dimen_40dp"
+            android:shadowColor="@color/black"
+            android:text="@string/view_reminders"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:translationX="90dp"
+            android:translationY="100dp"
+            android:fontFamily="@font/comfortaa"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/txt_send_msg"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:background="@drawable/roundedbutton"
+            android:gravity="left|center_vertical"
+
+            android:paddingLeft="@dimen/dimen_40dp"
+            android:shadowColor="@color/black"
+            android:text="@string/send_message"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:translationX="90dp"
+            android:translationY="150dp"
+            android:fontFamily="@font/comfortaa"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="theme">#71d7d3</color>
+
+    <color name="colorPrimary">#075c88</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#bd1212</color>
+
+    <color name="white">#ffffff</color>
+    <color name="cyan">#27D7D7</color>
+    <color name="orange">#e4683c</color>
+    <color name="orange_light">#FFE46D24</color>
+    <color name="pay_now_bg">#fb5832</color>
+    <color name="gray">#bab9b8</color>
+    <color name="bottom_bar_color">#161616</color>
+
+    <color name="nav_expandable_header_background">#f4f3f3</color>
+    <color name="nav_menu_separator_background">#e1e0e0</color>
+
+
+    <color name="banner_background">#f6f7f8</color>
+    <color name="banner_text">#999999</color>
+
+
+    <color name="black">#000000</color>
+    <color name="emi_card_heading">#00559b</color>
+    <color name="emicard_dob_background">#d6d6d6</color>
+    <color name="show_emicarddetails_header_background">#353434</color>
+    <color name="view_card_background">#e7e7e7</color>
+    <color name="color_fffefe">#fffefe</color>
+    <color name="card_background_black">#2d2d2d</color>
+    <color name="grey_light">#6F000000</color>
+    <color name="green">#05e701</color>
+
+    <color name="light_red">#88e7011c</color>
+    <color name="light_green">#5801e714</color>
+    <color name="digi_gold_background">#232E40</color>
+    <color name="digi_gold_title">#515A6B</color>
+
+
+    <color name="indigo_blue">#034263</color>
+    <color name="tip_blue">#04385c</color>
+    <color name="indigo_light_blue">#6ba2c6</color>
+    <color name="light_blue">#1a4f6f</color>
+    <color name="indigo_dark_blue">#083d59</color>
+    <color name="indigo_orange">#FF5A34</color>
+    <color name="brand_light_blue">#0074c9</color>
+    <color name="button_background">#f04814</color>
+    <color name="tangerine">#f04814</color>
+    <color name="indigo_light_blue_widget">#507893</color>
+    <color name="toolbar_title">#ff5a2b</color>
+    <color name="payment_title">#231f20</color>
+
+
+
+
+    <color name="gold_line_gray">#FFDCDCDC</color>
+    <color name="gold_transaction_text">#FF024060</color>
+    <color name="yellow_status">#FFFFC80F</color>
+    <color name="red">#d70d16</color>
+
+
+    <color name="blue">#FF005a9c</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">#ffcdd8ec</color>
+    <color name="dark_blue">#034263</color>
+    <string name="color_payment_gateway">#034263</string>
+
+
+    <color name="tour_gray">#7e7d7d</color>
+    <color name="tour_pink">#ffad9a</color>
+    <color name="tour_light_pink">#ffcdc2</color>
+    <color name="transparent">#00ffffff</color>
+
+
+    <color name="profile_gray">#ededed</color>
+
+
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationDisable">#3A000000</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+    <color name="account_background">#f4f4f4</color>
+    <color name="loans_sidebar">#eabf23</color>
+    <color name="ins_sidebar">#0074ce</color>
+    <color name="loans_label">#b3000000</color>
+    <color name="color_014164">#014164</color>
+    <color name="color_767676">#767676</color>
+    <color name="color_d7d7d7">#d7d7d7</color>
+    <color name="color_034263">#034263</color>
+    <color name="color_004063">#004063</color>
+    <color name="color_231f20">#231f20</color>
+    <color name="color_6d6e71">#6d6e71</color>
+    <color name="color_848484">#848484</color>
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="inactive_background">#ebebeb</color>
+    <color name="btnDisabled">#aaaaaa</color>
+    <color name="color_66000000">#66000000</color>
+    <color name="color_e6231f20">#e6231f20</color>
+    <color name="color_bcbec0">#bcbec0</color>
+    <color name="color_939598">#939598</color>
+    <color name="pdp_blue">#b3004164</color>
+    <color name="color_83d0f7">#83d0f7</color>
+    <color name="color_5faf56">#5faf56</color>
+    <color name="color_58595b">#58595b</color>
+    <color name="color_tip_indicator_off">#a49a36</color>
+    <color name="color_tip_indicator_on">#024363</color>
+
+
+    <color name="grey_view">#bcbec0</color>
+    <color name="color_0069b4">#0069b4</color>
+    <color name="error_red">#ff0000</color>
+    <color name="black_light">#231f20</color>
+    <color name="color_dc000000">#dc000000</color>
+    <color name="home_divider_color">#B3F4F4F4</color>
+    <color name="home_divider_color_dark">#DDDDDD</color>
+    <color name="my_offers_grid_background">#E3E3E3</color>
+
+
+    <color name="color_b3004164">#b3004164</color>
+    <color name="color_e61e1e1e">#e61e1e1e</color>
+    <color name="bbps_sidebar">#00febe</color>
+    <color name="color_d5c7b2">#d5c7b2</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_646464">#646464</color>
+    <color name="color_262d3e">#262d3e</color>
+    <color name="color_141414">#141414</color>
+    <color name="color_ff5928">#ff5928</color>
+    <color name="color_cc262d3e">#cc262d3e</color>
+    <color name="blocked_card_bg">#bd1212</color>
+    <color name="dark_blue_black">#252d3f</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_0e5e82">#0e5e82</color>
+
+    <color name="splash_background">#024363</color>
+    <color name="new_journey_toolbar_bg">#00334d</color>
+
+
+    <color name="material_icon">#BD3F32</color>
+
+</resources>

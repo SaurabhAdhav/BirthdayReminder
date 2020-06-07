@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Birthday Reminder</string>
+    <string name="title_activity_view_entry">View Reminders</string>
+    <string name="title_activity_set_msg">Send Message</string>
+    <string name="title_add_reminder">Add Reminder</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="send_message">Send Message</string>
+    <string name="view_reminders">View Reminders</string>
+    <string name="send_messages">Send Messages</string>
+    <string name="tap_here_to_pick_contact">Tap here to pick contact</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="birthday_reminder">Birthday Reminder</string>
+    <string name="name">Name</string>
+    <string name="contact_no">Contact no.</string>
+    <string name="date">Date</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+</resources>

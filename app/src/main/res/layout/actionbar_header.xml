@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@drawable/gradient"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/dimen_36dp"
+        android:layout_height="@dimen/dimen_36dp"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="@dimen/margin_8dp"
+        android:paddingTop="@dimen/dimen_5dp"
+        android:paddingEnd="@dimen/margin_8dp"
+        android:paddingBottom="@dimen/dimen_5dp"
+        app:srcCompat="@drawable/ic_back_arrow"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        style="@style/TextView.title.orange.18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_8dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="@string/title_add_reminder"
+        android:textStyle="bold" />
+</LinearLayout>
